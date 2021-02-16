@@ -10,7 +10,7 @@ namespace PalindromeExercise
 
             var reversed = "";
 
-            for (int i = word.Length - 1; i < word.Length; i >= 0; i--);
+            for (int i = word.Length - 1; i >= 0; i--)
             {
                 reversed += word[i];
             }
